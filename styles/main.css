@@ -215,22 +215,6 @@ footer .icon-small img {
 footer .icon-medium {
   height: 2.8rem;
 }
-footer .icon-large {
-  width: 2.8rem;
-}
-@media screen and (min-width: 768px) {
-  footer .icon-large {
-    width: 3.8rem;
-  }
-}
-@media screen and (min-width: 992px) {
-  footer .icon-large {
-    width: 5rem;
-  }
-}
-footer .icon-large img {
-  width: 100%;
-}
 
 aside {
   position: fixed;
@@ -265,6 +249,22 @@ aside .icon-aside {
   max-width: 2.8rem;
 }
 aside .icon-aside img {
+  width: 100%;
+}
+aside .icon-large {
+  width: 2.8rem;
+}
+@media screen and (min-width: 768px) {
+  aside .icon-large {
+    width: 3.8rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  aside .icon-large {
+    width: 5rem;
+  }
+}
+aside .icon-large img {
   width: 100%;
 }
 

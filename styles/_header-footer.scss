@@ -109,17 +109,4 @@ footer {
     .icon-medium {
         height: 2.8rem;
     }
-    .icon-large {
-        width: 2.8rem;
-        @media screen and ($medium-screen) {
-            width: 3.8rem;
-        }
-        @media screen and ($large-screen) {
-            width: 5rem;
-        }
-        img {
-            width: 100%;
-        }
-    }
-    
 }
