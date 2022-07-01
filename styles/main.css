@@ -321,7 +321,7 @@ aside .icon-large img {
   background: linear-gradient(155deg, rgba(237, 222, 191, 0.4), rgba(25, 88, 125, 0.4));
 }
 
-#home .arrow-down {
+#home .arrow-down .container {
   padding: 4rem 0;
 }
 #home .arrow-down img {
@@ -387,6 +387,45 @@ aside .icon-large img {
   max-width: 100%;
   margin-bottom: 1.5rem;
 }
+#home .card {
+  margin-bottom: 2rem;
+}
+#home .card:hover > .actor-info {
+  opacity: 1;
+}
+#home .actor-info {
+  margin-top: -6rem;
+  padding-left: 1.875rem;
+  width: 100%;
+  height: 3.75rem;
+  font-size: 0.75rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  opacity: 0;
+}
+#home .actor-info .actor-image {
+  border-radius: 50%;
+  position: absolute;
+  top: -15px;
+  left: 30px;
+}
+#home .actor-info .actor-image img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+#home .actor-info .actor-text {
+  padding: 10px 40px;
+  background: linear-gradient(90deg, rgba(237, 222, 191, 0.4), rgba(137, 0, 8, 0.6));
+  border-radius: 2rem;
+}
+#home .actor-info .actor-date {
+  font-size: 0.625rem;
+  color: #fff000;
+}
 #home .section-image-wrapper:hover {
   transform: scale(1.1) !important;
   transition: all ease 5s;
@@ -394,6 +433,30 @@ aside .icon-large img {
 #home .section-image-full {
   display: block;
   max-width: 100%;
+}
+#home .section-ally {
+  position: relative;
+}
+#home .section-ally > img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+  height: 11rem;
+  transform: translateY(-50%);
+  z-index: 11;
+}
+@media screen and (min-width: 768px) {
+  #home .section-ally > img {
+    height: 15rem;
+    transform: translateY(-65%);
+  }
+}
+@media screen and (min-width: 992px) {
+  #home .section-ally > img {
+    height: 18rem;
+    transform: translateY(-80%);
+  }
 }
 #home .carousel {
   gap: 1.5rem;
@@ -618,7 +681,7 @@ aside .icon-large img {
   margin-bottom: 1rem;
 }
 #home .quotes-author {
-  color: var(--gray);
+  color: #c4c4c4;
   margin-bottom: 0.5rem;
 }
 #home .quotes-navigation-btn {
@@ -626,9 +689,9 @@ aside .icon-large img {
   display: inline-block;
   width: 5px;
   height: 5px;
-  border: 1px solid var(--blue);
+  border: 1px solid #19587d;
   border-radius: 50%;
 }
 #home .quotes-navigation-btn-active {
-  background-color: var(--blue);
+  background-color: #19587d;
 }/*# sourceMappingURL=main.css.map */
