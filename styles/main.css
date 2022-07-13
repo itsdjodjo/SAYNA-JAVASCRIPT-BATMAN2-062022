@@ -321,6 +321,47 @@ aside .icon-large img {
   background: linear-gradient(155deg, rgba(237, 222, 191, 0.4), rgba(25, 88, 125, 0.4));
 }
 
+#home .popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+#home .popup-container.active {
+  display: flex;
+}
+#home .popup {
+  background: linear-gradient(155deg, rgba(237, 222, 191, 0.4), rgba(25, 88, 125, 0.4));
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#home .popup button {
+  background-color: inherit;
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0.625rem;
+  right: 0.625rem;
+}
+#home .popup p {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 #home .arrow-down .container {
   padding: 4rem 0;
 }
