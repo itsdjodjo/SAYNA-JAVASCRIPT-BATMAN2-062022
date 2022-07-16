@@ -100,7 +100,6 @@ main, footer {
 
 header {
   position: relative;
-  background: url(../assets/illustrations/home/Bathome1.png) no-repeat top center;
   background-size: cover;
 }
 header .nav.container {
@@ -175,9 +174,10 @@ header .banner-description {
   margin-bottom: 1rem;
 }
 header h1 {
-  font-size: 1.875rem;
+  font-size: 2.25rem;
   margin-bottom: 1.3rem;
   font-weight: 700;
+  font-family: "Rajdhani";
 }
 header .logo {
   height: 2.5rem;
@@ -362,6 +362,9 @@ aside .icon-large img {
   text-transform: uppercase;
 }
 
+#home header {
+  background: url(../assets/illustrations/home/Bathome1.png) no-repeat top center;
+}
 #home .arrow-down .container {
   padding: 4rem 0;
 }
@@ -735,4 +738,77 @@ aside .icon-large img {
 }
 #home .quotes-navigation-btn-active {
   background-color: #19587d;
+}
+
+#game header {
+  background: url(../assets/illustrations/batgame/Batgame_1.png) no-repeat top center;
+  height: calc(100vh + 150px);
+  background-size: cover;
+}
+#game h1 {
+  font-weight: 1000;
+  letter-spacing: 1px;
+}
+@media screen and (min-width: 768px) {
+  #game h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #game h1 {
+    font-size: 3rem;
+    letter-spacing: 3px;
+  }
+}
+#game .banner-wrapper {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  #game .banner-wrapper {
+    margin: 0 auto 0 0;
+    text-align: left;
+  }
+}
+#game .arrow-down .container {
+  padding: 4rem 0;
+}
+#game .arrow-down img {
+  cursor: pointer;
+  height: 2.2rem;
+  margin: 0 auto;
+  display: block;
+}
+#game .section-title {
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 900;
+}
+#game #dark-knight {
+  width: 90%;
+  max-width: 1110px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+#game .btn-translucent-yellow {
+  width: 13rem;
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, rgba(237, 222, 191, 0.4), rgba(185, 130, 68, 0.8));
+}
+#game .btn-translucent-yellow:hover {
+  background: linear-gradient(90deg, rgba(237, 222, 191, 0.7), #b98244);
+}
+#game #footer .container {
+  padding-top: 10rem;
 }/*# sourceMappingURL=main.css.map */

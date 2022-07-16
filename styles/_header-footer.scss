@@ -1,8 +1,6 @@
 
 header {
     position: relative;
-    background: url(../assets/illustrations/home/Bathome1.png)
-        no-repeat top center;
     background-size: cover;
     .nav.container {
         border-bottom: 3px solid $color-border;
@@ -68,9 +66,10 @@ header {
         margin-bottom: 1rem;
     }
     h1 {
-        font-size: 1.875rem;
+        font-size: 2.25rem;
         margin-bottom: 1.3rem;
         font-weight: 700;
+        font-family: "Rajdhani";
     }
     .logo {
         height: 2.5rem;
